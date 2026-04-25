@@ -1,0 +1,116 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d16ba5;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#hero h1 {
+    font-size: 2.8rem;
+    color: #d16ba5;
+}
+
+#hero h2 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* SECCIONES */
+section {
+    margin-bottom: 50px;
+}
+
+/* TITULOS */
+h2 {
+    margin-bottom: 10px;
+    color: #d16ba5;
+}
+
+/* SOBRE MI */
+#about p {
+    max-width: 600px;
+}
+
+/* PROYECTOS */
+#projects div {
+    background-color: #ffeef5;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}
+
+#projects div:hover {
+    transform: translateY(-5px);
+}
+
+/* EDUCACIÓN */
+#education article {
+    margin-top: 10px;
+}
+
+/* CONTACTO */
+#contact p {
+    font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeef5;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+/* HOVER LINKS */
+a:hover {
+    opacity: 0.7;
+}
